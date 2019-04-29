@@ -1,0 +1,8 @@
+x<-1:5
+y<-6:10
+plot(x,y)
+
+data1 <- read.csv(file.choose(),header=T)
+data1
+
+data2<- read.Table(file.choose(),header=T)
